@@ -30,5 +30,33 @@ public class Objects_and_Classes {
             System.out.println(i);
         }
 
+        System.out.println(math.judge(7));
+
+        //基本数据类型：形参不影响实参的
+        int n1 = 1;
+        int n2 = 2;
+        new test().swap(n1,n2);
+        System.out.println(n1 +" "+n2);
+
+        //引用数据类型：形参影响实参
+        int[] arr = {2,3,4,5};
+        for (int i :arr) {
+            System.out.println(i);
+        }
+        System.out.println("===========");
+        new test().update(arr);
+        for (int i :arr) {
+            System.out.println(i);
+        }
+
+        People people1 = People.copyPeople(people[0]);
+        System.out.println(people1);
+
+        test.m(1);
+        test.m(1,2);
+
+        test.mm(1,2);
+        test.mm(1,2,3);
+
     }
 }

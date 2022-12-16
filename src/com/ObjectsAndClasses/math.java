@@ -13,4 +13,13 @@ public class math {
         resl[2] = n1 * n2;
         return resl;
     }
+
+    //判断奇数偶数
+    public static boolean judge(int n1){
+        if (n1 % 2 == 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

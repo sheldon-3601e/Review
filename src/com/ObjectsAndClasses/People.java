@@ -47,4 +47,8 @@ public class People {
                 ", price=" + price +
                 '}';
     }
+
+    public static People copyPeople(People people){
+        return people;
+    }
 }
