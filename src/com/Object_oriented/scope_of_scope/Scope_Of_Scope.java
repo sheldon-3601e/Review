@@ -1,4 +1,4 @@
-package com.scope_of_scope;
+package com.Object_oriented.scope_of_scope;
 
 import org.testng.annotations.Test;
 

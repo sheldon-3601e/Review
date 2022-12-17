@@ -1,4 +1,4 @@
-package com.ObjectsAndClasses;
+package com.Object_oriented.ObjectsAndClasses;
 
 /**
  * @author sheldon

@@ -1,6 +1,4 @@
-package com.ObjectsAndClasses;
-
-import java.util.Date;
+package com.Object_oriented.ObjectsAndClasses;
 
 /**
  * @author sheldon
